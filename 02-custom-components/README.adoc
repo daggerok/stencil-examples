@@ -1,4 +1,4 @@
-= stencil getting started image:https://travis-ci.org/daggerok/stencil-examples.svg?branch=master["Build Status", link="https://travis-ci.org/daggerok/stencil-examples"]
+= stencil custom components image:https://travis-ci.org/daggerok/stencil-examples.svg?branch=master["Build Status", link="https://travis-ci.org/daggerok/stencil-examples"]
 
 very bad solution for gh-deployment right now:
 

@@ -33,6 +33,7 @@ script:
   - export ROOT=$PWD
   - >
     for path in \
+      02-custom-components \
       01-getting-started ;
     do
       export TARGET="$ROOT/$path"
