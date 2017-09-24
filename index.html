@@ -1,0 +1,11 @@
+<!DOCTYPE html><html dir="ltr" lang="en"><head><base href="/stencil-examples/"/><style data-styles="">my-name{font-family:Courier New,Courier,monospace;font-weight:700;}my-name.💎{visibility:inherit;}</style> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Stencil Examples</title> <meta name="theme-color" content="#16161d"> <meta name="apple-mobile-web-app-capable" content="yes"> <link rel="apple-touch-icon" href="assets/img/icon.png"> <link rel="manifest" href="manifest.json"> <link rel="icon" type="image/x-icon" href="assets/icon/favicon.ico"> <meta name="prerendered"><link rel="canonical" href="/stencil-examples/"></head>
+<body> <my-name first="Stencil" last="JS" data-ssrv="0" class="💎"><div data-ssrc="0.0"><!--s.0.0-->Hello, my name is <!--/--> <!--s.0.1-->Stencil<!--/--> <!--s.0.2--> <!--/--> <!--s.0.3-->JS<!--/--> </div></my-name> <script>
+    if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/stencil-examples/sw.js')
+          .then(reg => console.log('service worker registered', reg))
+          .catch(err => console.log('service worker error', err));
+      });
+    }
+  </script> <script>/*! Built with http://stenciljs.com */
+!function(t,e,i,s,a,r,E,n,p){for((t[i]=t[i]||{}).components=E=E||[],(n=e.createElement("style")).setAttribute("data-styles",""),n.innerHTML=(E.map(function(t){return t[0]}).join(",")+"{visibility:hidden}.💎{visibility:inherit}").toLowerCase(),e.head.insertBefore(n,e.head.firstChild),i=i.toLowerCase(),p=(n=e.scripts).length-1;0<=p;p--)if(n[p].src&&n[p].src.split("/").pop()===i+".js"){s=n[p].src.replace(i+".js",i+"/");break}(n=e.createElement("script")).src=s+(t.customElements&&t.fetch?a:"app.2uafag5u.pf.js"),n.setAttribute("data-path",s),n.setAttribute("data-core",a),e.head.appendChild(n)}(window,document,"App","/stencil-examples/build/app/","app.qsemgzik.js",0,[["MY-NAME","t89fh3lc",{$:"uyykddxl"},[["first",1],["last",1]]],["STENCIL-ROUTE","taqqg0q6",{}],["STENCIL-ROUTE-LINK","taqqg0q6",{},0,0,1],["STENCIL-ROUTER","taqqg0q6",{},0,0,1],["STENCIL-ROUTER-REDIRECT","taqqg0q6",{}],["TEST-APP","w2egy1rg",{}],["TEST-DEMO-FOUR","w2egy1rg",{}],["TEST-DEMO-THREE","w2egy1rg",{}]]);</script></body></html>

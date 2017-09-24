@@ -1,0 +1,67 @@
+{
+  "namespace": "App",
+  "components": [
+    [
+      "MY-NAME",
+      "t89fh3lc",
+      {
+        "$": "uyykddxl"
+      },
+      [
+        [
+          "first",
+          1
+        ],
+        [
+          "last",
+          1
+        ]
+      ]
+    ],
+    [
+      "STENCIL-ROUTE",
+      "taqqg0q6",
+      {}
+    ],
+    [
+      "STENCIL-ROUTE-LINK",
+      "taqqg0q6",
+      {},
+      0,
+      0,
+      1
+    ],
+    [
+      "STENCIL-ROUTER",
+      "taqqg0q6",
+      {},
+      0,
+      0,
+      1
+    ],
+    [
+      "STENCIL-ROUTER-REDIRECT",
+      "taqqg0q6",
+      {}
+    ],
+    [
+      "TEST-APP",
+      "w2egy1rg",
+      {}
+    ],
+    [
+      "TEST-DEMO-FOUR",
+      "w2egy1rg",
+      {}
+    ],
+    [
+      "TEST-DEMO-THREE",
+      "w2egy1rg",
+      {}
+    ]
+  ],
+  "loader": "app.js",
+  "global": "app.global.js",
+  "core": "app/app.qsemgzik.js",
+  "corePolyfilled": "app/app.2uafag5u.pf.js"
+}
