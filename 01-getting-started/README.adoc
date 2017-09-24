@@ -1,5 +1,34 @@
 = stencil
 
+very bad solution for gh-deployment right now:
+
+.1 build project
+[source,bash]
+----
+yarn build
+----
+
+.2 build project
+[source,bash]
+----
+ls www/build/app | grep 'app.'
+app.2uafag5u.pf.js
+app.qsemgzik.js
+----
+
+.3 put them into package.json
+[source,json]
+----
+{
+    "predeploy:bash-app-1": "bash ./gh-pages/predeploy.bash ./www/build/app/app.2uafag5u.pf.js",
+    "predeploy:bash-app-2": "bash ./gh-pages/predeploy.bash ./www/build/app/app.qsemgzik.js",
+
+    "postdeploy:bash-app-1": "bash ./gh-pages/postdeploy.bash ./www/build/app/app.2uafag5u.pf.js",
+    "postdeploy:bash-app-2": "bash ./gh-pages/postdeploy.bash ./www/build/app/app.qsemgzik.j
+}
+----
+
+.4 github pages deployment
 [source,bash]
 ----
 git clone https://github.com/ionic-team/stencil-starter.git 02-stencil
@@ -7,3 +36,13 @@ cd 02-stencil
 rm -rf .git # git remote rm origin
 yarn -i
 ----
+
+.how to getting started from clean stencil repo
+[source,bash]
+----
+git clone https://github.com/ionic-team/stencil-starter.git 02-stencil
+cd 02-stencil
+rm -rf .git # git remote rm origin
+yarn -i
+----
+
