@@ -15,3 +15,4 @@ yarn deploy
 links:
 
 . link:https://www.youtube.com/watch?v=MqMYaT1GlWY[quick introduction tutorial (youtube)]
+. link:https://www.youtube.com/watch?v=Yp_oiCWV_no[components interaction]
